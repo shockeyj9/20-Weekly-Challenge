@@ -1,8 +1,11 @@
+import Projects from "../components/Project";
+
+
 export default function Portfolio() {
   return (
-    <div>
+    <article>
       <h1>Portfolio Page</h1>
-      
-    </div>
+      <Projects />
+    </article>
   );
 }
