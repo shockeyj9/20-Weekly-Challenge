@@ -2,11 +2,9 @@ import github from '../assets/github-pages-logo.png'
 import linkedIn from '../assets/linkedIn-logo.png'
 
 export default function Footer(){
-const styles ={
-    background : 'black'
-}
+
     return (
-        <footer style={styles}>
+        <footer>
             <a href="https://github.com/shockeyj9">
                 <img src={github} alt="octo-cat Logo" />
             </a>
