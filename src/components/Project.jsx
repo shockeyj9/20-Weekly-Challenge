@@ -5,10 +5,10 @@ import projectData from "../utils/projectData"
 export default function Projects(){
 
     return (
-    <ul>
+    <ul className="projects">
         {projectData.map((result)=>(
-        <li key={result.id}>
-            <a href={result.url} target="_blank">
+        <li key={result.id} >
+            <a className="project" href={result.url} target="_blank">
                 <img src={result.image} alt={result.description} />
             </a>
         </li>
