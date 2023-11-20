@@ -1,7 +1,8 @@
 export default function About() {
   return (
-    <article id="about">
-    <h2>About Me</h2>
+    <section id="about">
+    <h1>About Me</h1>
+    <article>
     <p>My name is Jessie Shockey and I am a full stack web developer. I come from a background in the Behavioral Health, Mental Health, and Substance Abuse as a Billing 
     and Collections Specialist.
     </p>
@@ -14,6 +15,7 @@ export default function About() {
     My professional goal is to help bridge that functional gap between agencies and their Revenue Cycle Managment software, to create more flexible billing processes
     which accommodates the ever changing billing requirements that agnecies face.
     </p>
-</article>
+    </article>
+</section>
   );
 }
