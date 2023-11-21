@@ -1,5 +1,5 @@
 :root {
-    --background-color: rgb(179, 201, 196);
+    --background-color: rgb(160, 188, 181);
     --highlight-color: rgb(201, 225, 220);
 }
 *{
@@ -78,7 +78,6 @@ article>p{
 li>a>img{
     width: 332px;
     height: 158px;
-    margin: 75px;
 }
 
 .projects{
@@ -86,7 +85,31 @@ li>a>img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 .project{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project>p{
+    position: relative;
+    right: 5px;
+    bottom: 60px;
+    background-color: var(--highlight-color);
+    padding: 10px;
+    }
+
+.profile-pic{
+    height: 350px;
+    float: left;
+    margin-right: 7px;
+}
+.skills{
+    text-align: justify;
+}
+.repo-icon{
+    height: 30px;
+    margin-left: 25px;
 }
